@@ -42,9 +42,9 @@ header {
     width: 800px;
 }
 
-.headerList ul{
+.headerList ul {
     display: flex;
-    justify-content: space-between;
+    gap: 80px;
 }
 
 /*___________________MAIN PART___________________________*/
@@ -55,10 +55,6 @@ main {
     background-color: #d8d8d6;
 }
 
-.ameliaImage {
-    margin-top: 150px;
-}
-
 .ameliaTextContent {
     margin-top: 65px;
     margin-bottom: 40px;
@@ -67,7 +63,8 @@ main {
 
 .ameliaFlowerFlex {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }
 
 .order {
@@ -126,32 +123,34 @@ h2 {
 }
 
 .ulIcons {
-    padding-top: 80px;
-    padding-bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     margin-top: 120px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.ulLinks {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 80px;
-    display: flex;
-    justify-content: space-around;
+.ulIcons li {
+    text-align: center;
 }
+
+.ulIcons li p {
+    padding-top: 15px;
+}
+
+
 
 /*________________________HOW WE WORK________________________________*/
 
 .howWeWorkFlex {
     margin-top: 120px;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
 }
 
 .howWeWorkText {
     margin-left: 30px;
-    margin-top: 230px;
 }
 
 .ameliaTextContent {
@@ -169,7 +168,8 @@ h2 {
 .ourWorksImages {
     margin-top: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
     padding-bottom: 120px;
 }
 
@@ -181,7 +181,6 @@ h2 {
 .ourWorksImages div {
     background-color: #81a36b;
     width: 350px;
-    /*height: 510px;*/
     padding: 15px 15px 93px 15px;
 }
 
